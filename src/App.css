@@ -1,0 +1,149 @@
+.saba1{
+  height:80vh;
+  width:800px;
+  /* border: 4px solid black; */
+  margin-left: 350px;
+  margin-top: 20px;
+
+}
+.saba2{
+  width:100%;
+  height:80px;
+  display:flex;
+  flex-direction: row;
+  justify-items: flex-start;
+  align-items: center;
+}
+@media (max-width:1200px){
+  .responsive {
+        display:grid;
+        grid-template-columns: repeat(4,150px);
+        justify-content: center;
+        align-items: center;
+  }
+  
+}
+
+@media (max-width:1000px){
+  .responsive {
+        display:grid;
+        grid-template-columns: repeat(4,150px);
+        justify-content: center;
+        align-items: center;
+  }
+  
+}
+
+@media (max-width:900px){
+  .responsive {
+        display:grid;
+        grid-template-columns: repeat(4,150px);
+        justify-content: center;
+        align-items: center;
+  }
+  
+}
+@media (max-width:800px){
+  .responsive {
+        display:grid;
+        grid-template-columns: repeat(3,200px);
+        justify-content: center;
+        align-items: center;
+  
+  } 
+}
+
+@media (max-width:600px){
+  .responsive {
+        display:grid;
+        grid-template-columns: repeat(3,150px);
+        justify-content: center;
+        align-items: center;
+  
+  }
+  
+}
+@media (max-width:500px){
+  .responsive {
+        display:grid;
+        grid-template-columns: repeat(2,150px);
+        justify-content: center;
+        align-items: center;
+  
+  }
+  
+}
+
+@media (max-width:400px){
+  .responsive {
+        display:grid;
+        grid-template-columns: repeat(1,250px);
+        justify-content: center;
+        align-items: center;
+  
+  }
+  .favorite-card{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  
+  }
+  
+}
+@media (max-width:350px){
+  .responsive {
+        display:grid;
+        grid-template-columns: repeat(1,250px);
+        justify-content: center;
+        align-items: center;
+  
+  }
+  .favorite-card{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  
+  }
+  
+}
+
+@media (max-width:300px){
+  .responsive {
+        display:grid;
+        grid-template-columns: repeat(1,250px);
+        justify-content: center;
+        align-items: center;
+  
+  }
+  .favorite-card{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  
+  }
+  
+  
+}
+@media (max-width:250px){
+  .responsive {
+        display:grid;
+        grid-template-columns: repeat(1,250px);
+        justify-content: center;
+        align-items: center;
+  
+  }
+  .favorite-card{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  
+  }
+  
+  
+}
+
+
